@@ -1,0 +1,5 @@
+{
+    "require": {
+        "giansalex/xmldsig": "^3.0"
+    }
+}

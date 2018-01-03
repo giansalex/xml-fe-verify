@@ -1,5 +1,5 @@
 {
     "require": {
-        "giansalex/xmldsig": "^3.0"
+        "greenter/xmldsig": "^1.0"
     }
 }

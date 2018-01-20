@@ -6,11 +6,12 @@
  * Time: 18:36
  */
 
-use RobRichards\XMLSecLibs\Sunat\Adapter\SunatXmlSecAdapter;
+
+use Greenter\XMLSecLibs\Sunat\SunatXmlSecAdapter;
 
 require 'vendor/autoload.php';
 
-$xmlPath = __DIR__.'/RHE1048004835615.xml';
+$xmlPath = __DIR__ . '/Resources/RHE1048004835615.xml';
 
 $xmlTool = new SunatXmlSecAdapter();
 

@@ -7,13 +7,13 @@
  */
 
 
-use Greenter\XMLSecLibs\Sunat\SunatXmlSecAdapter;
+use Greenter\XMLSecLibs\Sunat\SignedXml;
 
 require 'vendor/autoload.php';
 
 $xmlPath = __DIR__ . '/Resources/RHE1048004835615.xml';
 
-$xmlTool = new SunatXmlSecAdapter();
+$xmlTool = new SignedXml();
 
 $res = $xmlTool->verifyXml(file_get_contents($xmlPath));
 
